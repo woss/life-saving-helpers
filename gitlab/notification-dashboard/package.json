@@ -1,0 +1,25 @@
+{
+  "name": "gitlab-notification-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/woss_io/gitlab-notification-dashboard.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://gitlab.com/woss_io/gitlab-notification-dashboard/issues"
+  },
+  "scripts": {
+    "lint": "eslint --cache \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx}\""
+  },
+  "homepage": "https://gitlab.com/woss_io/gitlab-notification-dashboard#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "noImplicitReturns": false,
+    "noEmit": true,
+    "strict": false,
+    "lib": [
+      "es2020"
+    ]
+  },
+  "include": ["src"], // which files to compile
+  "exclude": ["node_modules"], // which files to skip
+  "ts-node": {
+    // these options are overrides used only by ts-node
+    // same as our --compilerOptions flag and our TS_NODE_COMPILER_OPTIONS environment variable
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+}
