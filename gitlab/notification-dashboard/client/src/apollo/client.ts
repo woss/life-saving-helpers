@@ -23,7 +23,7 @@ const authLink = setContext(() => {
       'Content-Type': 'application/json',
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Credentials': true,
-      "PRIVATE-TOKEN": "xxP6otKyJoUxFkAXhs_6",
+      "PRIVATE-TOKEN": "TOKEN",
     },
   }
 });
